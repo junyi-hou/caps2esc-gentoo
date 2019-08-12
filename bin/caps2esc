@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# run udevmon with default settings
+
+udevmon -c /etc/caps2esc/caps2esc.default.yaml

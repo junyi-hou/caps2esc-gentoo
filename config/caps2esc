@@ -1,0 +1,4 @@
+#!/sbin/openrc-run
+
+name="caps2esc"
+command="/usr/sbin/caps2esc"
