@@ -25,7 +25,7 @@ sudo mv /path/to/repo/config/caps2esc.yaml /etc/default/
 
 *** use emerge
 
-the ebuild file of this program can be found at overlay [TBD]. Add the overlay using your favorite method, e.g., use ~overlay~:
+the ebuild file of this program can be found at overlay [TBD]. Add the overlay using your favorite method, e.g., use ~layman~:
 #+begin_src bash
 sudo layman -a [TBD]
 #+end_src
