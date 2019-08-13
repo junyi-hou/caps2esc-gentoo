@@ -7,7 +7,10 @@ this repo contains config files for [[https://gitlab.com/interception/linux/plug
 ** Dependency:
 
 [[https://github.com/openrc/openrc/][OpenRC]]
+
 [[https://gitlab.com/interception/linux/plugins/caps2esc][caps2esc]]
+
+systemd users can refer the caps2esc project repo for systemd-related settings
 
 ** Installation
 
