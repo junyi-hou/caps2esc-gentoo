@@ -18,7 +18,7 @@ systemd users can refer the caps2esc project repo for systemd-related settings
 
 clone this repo, then
 #+begin_src bash
-sudo mv /path/to/repo/bin/caps2esc /usr/sbin/
+sudo mv /path/to/repo/bin/caps2escd /usr/sbin/
 sudo mv /path/to/repo/config/caps2esc /etc/init.d/
 sudo mv /path/to/repo/config/caps2esc.yaml /etc/default/
 #+end_src
