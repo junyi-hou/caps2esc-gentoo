@@ -2,3 +2,5 @@
 
 name="caps2esc"
 command="/usr/sbin/caps2escd"
+command_background=true
+pidfile="/run/caps2esc.pid"
