@@ -41,6 +41,9 @@ Set up the service using
 sudo rc-update add caps2esc default
 #+end_src
 
+** TODO
+
+- identified the internal keyboard and intercept that input stream only
 ** License
 
 MIT
