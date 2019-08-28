@@ -1,4 +1,4 @@
-* caps2esc -- map caplock to ctrl (press alone) and escape (combo) in tty, X and wayland
+* caps2esc -- map caplock to escape (press alone) and ctrl (combo) in tty, X and wayland
 
 ** Introduction
 
