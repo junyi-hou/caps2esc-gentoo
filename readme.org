@@ -44,6 +44,13 @@ sudo rc-update add caps2esc default
 ** TODO
 
 - identified the internal keyboard and intercept that input stream only
+  - people (like me) may have custom built keyboard with QMK firmware that does the mappings, interception on those devices will break the customization.
+  - current workaround: run 
+#+begin_src bash
+cat /proc/bus/input/devices
+#+end_src
+to identify which devices need to be intercepted, and change ~${DEVNODE}~ in ~/etc/default/caps2esc.yaml~ to the specific device. In my case, I have a Thinkpad T480, and the internal keyboard registers as ~/dev/input/event3~
+
 ** License
 
 MIT
