@@ -41,7 +41,7 @@ Set up the service using
 sudo rc-update add caps2esc default
 #+end_src
 
-** TODO
+** To-do
 
 - identified the internal keyboard and intercept that input stream only
   - people (like me) may have custom built keyboard with QMK firmware that does the mappings, interception on those devices will break the customization.
